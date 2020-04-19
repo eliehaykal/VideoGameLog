@@ -852,7 +852,7 @@ tr .game-title-bin a {
 
 
 h5 a {
-	color: #f87373;
+	color: #fc1111;
 }
 
 .list-group-item:hover{
@@ -873,4 +873,8 @@ h5 a {
 .gametitle {
 	font-size: 20px;
 	text-decoration:underline;
+}
+
+.soundtrackList {
+	background-color: #CCC;
 }
