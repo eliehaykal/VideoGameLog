@@ -809,7 +809,7 @@ tr .game-title-bin a {
 }
 
 #class_d_games_title{
-	color:#E83E3E;
+	color:#e45959;
 	font-weight: bold;
 	font-size: 1.2em;
 	/* text-decoration: #555 underline wavy;
@@ -824,7 +824,7 @@ tr .game-title-bin a {
 }
 
 #class_d_games{
-	color:#E83E3E;
+	color:#e45959;
 	/* font-weight: bold; */
 	background-color: #343A40;
 	padding: 2px;
@@ -856,6 +856,11 @@ h5 a {
 }
 
 .list-group-item:hover{
+	color:#f87373;
+	background-color: #343a40;
+}
+
+.soundtrackLink:hover{
 	color:#f87373;
 	background-color: #343a40;
 }
