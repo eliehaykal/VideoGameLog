@@ -870,9 +870,7 @@ h5 a {
 	color: #f87373;
 }
 
-/* Used in CineTrak guide page for titles */
-.CT-li-title{ 
-	color: #E24B15;
-	font-size: 1.4em;
-	font-weight: bold;
+.gametitle {
+	font-size: 20px;
+	text-decoration:underline;
 }
