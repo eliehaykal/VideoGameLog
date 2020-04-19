@@ -883,3 +883,9 @@ h5 a {
 .soundtrackList {
 	background-color: #CCC;
 }
+
+sup{
+	font-size:12px;
+	padding-bottom:20px;
+	top: -1em;
+}
