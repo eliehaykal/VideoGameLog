@@ -214,7 +214,7 @@ div div a:hover{
 
 a{
 	color:rgb(5, 97, 139);
-	
+
 }
 a:hover{
 	/* color:rgb(248, 171, 171); */
@@ -332,7 +332,7 @@ p+ul{
 .jumpto{
 	text-align: center;
 	width: 100%;
-	
+
 }
 
 .nav-item{
@@ -405,15 +405,15 @@ p+ul{
 
 /* table */
 tr .td-score-perfect{
-    /* text-align: center; 
+    /* text-align: center;
     vertical-align: middle;	 */
 	background-color: #FFF176;
 	font-weight: 600;
 	text-align: center;
-	vertical-align: middle;	
+	vertical-align: middle;
 	font-size: 1.4rem;
-	color:#343A40;
-	
+	color:#222;
+
 }
 
 tr{
@@ -421,7 +421,7 @@ tr{
 }
 
 thead{
-	background-color: #343A40;
+	background-color: #222;
 }
 
 tr .td-score{
@@ -430,10 +430,10 @@ tr .td-score{
 	/* align-items: center; */
 	font-weight: 600;
 	text-align: center;
-	vertical-align: middle;	
+	vertical-align: middle;
 	/* font-size: 1.4rem; */
 	color: #dddcdc;
-	background-color: #343A40;
+	background-color: #222;
 	/* height: 100%; */
 }
 
@@ -443,34 +443,34 @@ tr .td-score{
 }
 
 /* tr .game-title{
-	text-align: center; 
-	vertical-align: middle;	
+	text-align: center;
+	vertical-align: middle;
 	font-size: 1.1rem;
 	font-weight: bold;
 } */
 
 tr .hours-needed{
-	text-align: center; 
+	text-align: center;
 	vertical-align: middle;
-	font-weight: 600; 
+	font-weight: 600;
 }
 
 td p{
-	text-align: center; 
+	text-align: center;
 	vertical-align: middle;
-	font-weight: 600; 
+	font-weight: 600;
 	font-size: 1.1em;
-	background-color: #343A40;
+	background-color: #222;
 	color:#ecba3b;
 	/* padding: 10px 10px; */
 }
 
 #DNF{
-	text-align: center; 
+	text-align: center;
 	vertical-align: middle;
-	font-weight: 600; 
+	font-weight: 600;
 	font-size: 1.1em;
-	background-color: #343A40;
+	background-color: #222;
 	color:#ecba3b;
 	padding: 2px 5px;
 	/* padding: 10px 10px; */
@@ -485,8 +485,8 @@ th {
 }
 
 td:first-child{
-	text-align: center; 
-	vertical-align: middle;	
+	text-align: center;
+	vertical-align: middle;
 	font-size: 1.1rem;
 	font-weight: bold;
 }
@@ -530,7 +530,7 @@ td ul li{
 
 tr .multiplayer{
 	text-align: center;
-	vertical-align: middle; 
+	vertical-align: middle;
 }
 
 /* GRID STUFF */
@@ -548,7 +548,7 @@ tr .multiplayer{
 	display: grid;
 	margin: 0 auto;
 	max-width: 960px;
-	grid-template-columns: repeat(1, minmax(200px,auto)); 
+	grid-template-columns: repeat(1, minmax(200px,auto));
 	/* grid-template-columns: 1fr; */
 	grid-row-gap: 10px;
 	grid-column-gap: 30px;
@@ -556,7 +556,7 @@ tr .multiplayer{
 
 div a .gridImage{
 	width: 130px;
-	border: 3px solid #343A40;
+	border: 3px solid #222;
 	border-radius: 4px;
 	box-sizing: border-box;
 	float:none;
@@ -609,37 +609,37 @@ div a .gridImage{
 }
 
 .numOfPlayers{
-	background-color: #343A40;
+	background-color: #222;
 	color:#ecba3b;
 	padding: 0 4px;
 	/* margin: 5px; */
-	
+
 }
 
 .gamerank-gold{
 	color: #ecc563;
-	background-color: #343A40;
+	background-color: #222;
 	margin: 20px 0;
 	padding: 40px 0;
 	text-align: center;
 }
 .gamerank-silver{
 	color: #4CAF50;
-	background-color: #343A40;
+	background-color: #222;
 	margin: 20px 0;
 	padding: 40px 0;
 	text-align: center;
 }
 .gamerank-bronze{
 	color: #c9894a;
-	background-color: #343A40;
+	background-color: #222;
 	margin: 20px 0;
 	padding: 40px 0;
 	text-align: center;
 }
 .gamerank-bin{
 	color: #c57eda;
-	background-color: #343A40;
+	background-color: #222;
 	margin: 20px 0;
 	padding: 40px 0;
 	text-align: center;
@@ -650,68 +650,68 @@ div a .gridImage{
 /*  */
 tr .game-title-gold {
 	color: #e6e4e4;
-	background-color:#343A40; 
+	background-color:#222;
 	/* border: 10px #ecc563 solid;	 */
 	box-shadow: 8px 0px 0px #ecc563 inset;
 	box-sizing: border-box;
 	letter-spacing: 1px;
-	
+
 }
 
 .game-title-gold a {
-	color: #e6e4e4;	
+	color: #e6e4e4;
 }
 /*  */
 
 /*  */
 tr .game-title-silver {
 	color: #b3b2b1;
-	background-color:#343A40; 
+	background-color:#222;
 	/* border-left: 10px #b3b2b1 solid; */
 	box-shadow: 8px 0px 0px #4CAF50 inset;
 	letter-spacing: 1px;
-	
+
 }
 
 tr .game-title-silver a {
-	color: #e4e6e4;	
+	color: #e4e6e4;
 }
 /*  */
 
 /*  */
 tr .game-title-bronze {
 	color: #e6e4e4;
-	background-color:#343A40; 
+	background-color:#222;
 	/* border-left: 10px #aa743d solid; */
 	box-shadow: 8px 0px 0px #aa743d inset;
 	letter-spacing: 1px;
-	
+
 }
 
 tr .game-title-bronze a {
-	color: #e6e4e4;	
+	color: #e6e4e4;
 }
 /*  */
 
 /*  */
 tr .game-title-bin {
 	color: #e6e4e4;
-	background-color:#343A40; 
+	background-color:#222;
 	/* border-left: 10px #c57eda solid; */
 	box-shadow: 8px 0px 0px #c57eda inset;
 	letter-spacing: 1px;
-	
+
 }
 
 tr .game-title-bin a {
-	color: #e6e4e4;	
+	color: #e6e4e4;
 }
 /*  */
 
 .review-icon{
-	width:25px; 
+	width:25px;
 	float:none;
-	padding: 1px; 
+	padding: 1px;
 	margin:2px;
 }
 
@@ -723,39 +723,39 @@ tr .game-title-bin a {
 #class_s_games{
 	color:gold;
 	/* font-weight: bold; */
-	background-color: #343A40;
+	background-color: #222;
 	/* padding: 2px; */
 	text-align: center;
-	
+
 }
 
 #class_s_games_title{
 	color:gold;
 	font-weight: bold;
 	font-size: 1.2em;
-	background-color: #343A40;
+	background-color: #222;
 	/* padding: 2px; */
 	text-align: center;
-	
+
 }
 
 #class_a_games{
 	color:#17db48;
 	/* font-weight: bold; */
-	background-color: #343A40;
+	background-color: #222;
 	padding: 2px;
 	text-align: center;
-	
+
 }
 
 #class_a_games_title{
 	color:#17db48;
 	font-weight: bold;
 	font-size: 1.2em;
-	background-color: #343A40;
+	background-color: #222;
 	padding: 2px;
 	text-align: center;
-	
+
 }
 #class_b_games_title{
 	color:#c9894a;
@@ -766,20 +766,20 @@ tr .game-title-bin a {
 	text-decoration: rgb(207, 205, 57) solid underline;
 	-webkit-text-underline-position: auto;
 	text-underline-position: auto;
-	background-color: #343A40;
+	background-color: #222;
 	padding: 2px;
 	text-align: center;
-	
+
 }
 
 
 #class_b_games{
 	color:#c9894a;
 	/* font-weight: bold; */
-	background-color: #343A40;
+	background-color: #222;
 	padding: 2px;
 	text-align: center;
-	
+
 }
 #class_c_games_title{
 	color:#17a2b8;
@@ -790,10 +790,10 @@ tr .game-title-bin a {
 	text-decoration: rgb(207, 205, 57) solid underline;
 	-webkit-text-underline-position: auto;
 	text-underline-position: auto; */
-	background-color: #343A40;
+	background-color: #222;
 	padding: 2px;
 	text-align: center;
-	
+
 }
 
 
@@ -802,10 +802,10 @@ tr .game-title-bin a {
 #class_c_games{
 	color:#17a2b8;
 	/* font-weight: bold; */
-	background-color: #343A40;
+	background-color: #222;
 	padding: 2px;
 	text-align: center;
-	
+
 }
 
 #class_d_games_title{
@@ -817,34 +817,34 @@ tr .game-title-bin a {
 	text-decoration: rgb(207, 205, 57) solid underline;
 	-webkit-text-underline-position: auto;
 	text-underline-position: auto; */
-	background-color: #343A40;
+	background-color: #222;
 	padding: 2px;
 	text-align: center;
-	
+
 }
 
 #class_d_games{
 	color:#e45959;
 	/* font-weight: bold; */
-	background-color: #343A40;
+	background-color: #222;
 	padding: 2px;
 	text-align: center;
-	
+
 }
 
 
 .game-title-gold {
 	color: #e6e4e4;
-	background-color:#343A40; 
+	background-color:#222;
 	padding: 0px 4px;
 	font-weight: bold;
 	font-size: 1em;
-	
+
 }
 
 
 .list-group-item.active{
-	background-color: #3a3a3a;
+	background-color: #222;
 	color: gold;
 	border: none;
 	text-align:center;
@@ -857,12 +857,12 @@ h5 a {
 
 .list-group-item:hover{
 	color:#f87373;
-	background-color: #343a40;
+	background-color: #222;
 }
 
 .soundtrackLink:hover{
 	color:#f87373;
-	background-color: #343a40;
+	background-color: #222;
 }
 
 
