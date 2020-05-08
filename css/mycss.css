@@ -884,8 +884,18 @@ h5 a {
 	background-color: #CCC;
 }
 
-sup{
+.sup{
 	font-size:12px;
 	padding-bottom:20px;
 	top: -1em;
+}
+
+.hour{
+	font-weight: bold;
+	color: #474747;
+	text-transform: uppercase;
+}
+
+.imgCouch {
+	padding-bottom: 10px;
 }
